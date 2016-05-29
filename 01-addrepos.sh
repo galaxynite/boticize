@@ -52,4 +52,3 @@ nhEdU94GoVAKGPHdq9U1f9WhNdlBlh3e628To31WV0Y6DBJjPhMRp8tNpe/DmBBZ
 EOT
 
 apt-get update
-apt-get dist-upgrade
