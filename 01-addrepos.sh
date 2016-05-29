@@ -50,6 +50,3 @@ nhEdU94GoVAKGPHdq9U1f9WhNdlBlh3e628To31WV0Y6DBJjPhMRp8tNpe/DmBBZ
 =9R4q
 -----END PGP PUBLIC KEY BLOCK-----
 EOT
-
-apt-get update
-apt-get dist-upgrade

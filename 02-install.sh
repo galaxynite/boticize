@@ -14,4 +14,6 @@ apt-get install --no-install-recommends -y \
 	acpid \
 	cpufrequtils usbutils \
 	less psmisc \
+	python-alsaaudio \
+	lirc \
 	linux-image-4.5.0-botic7-rc1
