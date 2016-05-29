@@ -26,8 +26,15 @@ Enables time update from network, fixes CPU frequency to 1GHz:
 
 ## Verify configuration before the reboot
 
-Edit the /boot/uEnv.txt and check if there is a line starting with dtb=
-If it is not there, then try other one by fist executing "mount /boot/uboot" and then editing the /boot/uboot/uEnv.txt.
+Locate the correct boot configuration file, check if there is a line starting with dtb=
+
+> nano /boot/uEnv.txt
+
+If the "dtb=" is not there, then check also the alternative location:
+
+> mount /boot/uboot
+
+> nano /boot/uboot/uEnv.txt
 
 In the uEnv.txt file check the following, and fix if needed:
 
