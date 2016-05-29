@@ -1,0 +1,13 @@
+[Unit]
+Description=Network Time Service (one-shot ntpdate)
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/ntpdate pool.ntp.org
+RemainAfterExit=yes
+Restart=on-failure
+RestartSec=1min
+
+[Install]
+WantedBy=multi-user.target
