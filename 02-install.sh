@@ -7,6 +7,7 @@ apt-get install --no-install-recommends -y \
 	alsa-utils \
 	firmware-realtek firmware-ralink \
 	ntpdate \
+	openssh-server openssh-client \
 	cifs-utils \
 	nfs-common \
 	dbus wireless-tools wpasupplicant \
