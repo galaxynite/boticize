@@ -31,6 +31,11 @@ Enables time update from network, fixes CPU frequency to 1GHz:
 
 > bash 04-customsw.sh
 
+If you are going to compile kernel modules then install also kernel
+headers, compiler and other tools.
+
+> bash 05-develsw.sh
+
 ## Verify configuration before the reboot
 
 Locate the correct boot configuration file, check if there is a line starting with dtb=
