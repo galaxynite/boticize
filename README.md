@@ -2,27 +2,34 @@
 Scripts for adding Botic support into Debian based distribution
 
 ## Installation
-Execute following 5 scripts:
+
+Make sure that there is at least 200MB of free space on the root filesystem of BBB.
+
+> df -h /
+
+If there is not enough space, resize/extend partition if possible. Check the manual of your distro for the instructions.
+
+Then proceed with executing following 5 scripts:
 
 Check the time on the BBB, change it manually if it does not match
 
-> ./00-checktime.sh
+> bash 00-checktime.sh
 
 Add a Botic repository:
 
-> ./01-addrepos.sh
+> bash 01-addrepos.sh
 
 Install packages from Botic repository:
 
-> ./02-install.sh
+> bash 02-install.sh
 
 Enable shutdown on Power button press:
 
-> ./03-enablepm.sh
+> bash 03-enablepm.sh
 
 Enables time update from network, fixes CPU frequency to 1GHz:
 
-> ./04-customsw.sh
+> bash 04-customsw.sh
 
 ## Verify configuration before the reboot
 
